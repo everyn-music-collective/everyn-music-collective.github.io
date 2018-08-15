@@ -1,4 +1,9 @@
-﻿body {
+﻿---
+---
+
+@import "{{ site.theme }}";
+
+body {
     margin: auto;
     text-align: center;
     background: url("../Images/Everyn_SignalHome_Insides.jpg");
