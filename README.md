@@ -1,11 +1,11 @@
 ## Welcome to Everyn's website
 
-###Members
+### Members
 Mike Krzeminski
 Tom Malloy
 Anthony Dolar
 Mike Sloan
 
-###Contact
+### Contact
 
 everynband@gmail.com
