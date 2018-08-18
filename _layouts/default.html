@@ -30,7 +30,7 @@
         </nav>
       </div><!-- end header -->
 
-    <div class="wrapper" div style="text-align: center">
+    <div class="wrapper">
 
       <section>
         <div id="title">
@@ -39,13 +39,15 @@
           <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
         </div>
 
-        <div style="text-align: center">
-          <iframe style="border: 0; width: 350px; height: 786px;" src="https://bandcamp.com/EmbeddedPlayer/album=3459941863/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://everyn.bandcamp.com/album/signal-home">Signal Home by EVERYN</a></iframe>    
+        <div class ="container">
+          <div class="fixed">
+          <iframe style="border: 0; width: 350px; height: 786px;" src="https://bandcamp.com/EmbeddedPlayer/album=3459941863/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://everyn.bandcamp.com/album/signal-home">Signal Home by EVERYN</a></iframe>  
+          </div> 
+          <div class="flex-item">
+            {{ content }}
+          </div>
         </div>
         
-
-        {{ content }}
-
       </section>
     </div>
 

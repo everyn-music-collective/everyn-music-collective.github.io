@@ -253,6 +253,16 @@ dt {
       border-color: #e88845;
   }
 
+.container{
+    display: flex;
+}
+.fixed{
+    width: 350px;
+}
+.flex-item{
+    flex-grow: 1;
+}
+
 #header {
   z-index: 100;
   left:0;
