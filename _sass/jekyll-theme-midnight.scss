@@ -262,38 +262,10 @@ dt {
     flex-grow: 1;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-  position:relative;
-}
-
 .divider {
   position: absolute;
   right:-1px;
   top:2px;
-}
-
-
-a:link, a:visited {
-  display: block;
-  width: 120px;
-  font-weight: bold;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 4px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-a:hover, a:active {
-  background-color: rgb(42, 13, 122);
 }
 
 #header {
