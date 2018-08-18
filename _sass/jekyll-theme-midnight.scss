@@ -239,16 +239,16 @@ dt {
       border-color: #00FA9A;
   }
 /* rss button class*/
-.rssBtn {
+.instaBtn {
   background: #e88845;
 }
 
-  .rssBtn:before {
+  .instaBtn:before {
       font-family: "Font Awesome 5 Brands";
-      content: "\f09e"; /* add rss icon */
+      content: "\f16d"; /* add instagram icon */
   }
 
-  .rssBtn:hover {
+  .instaBtn:hover {
       color: #e88845;
       background: #fff;
       border-color: #e88845;
