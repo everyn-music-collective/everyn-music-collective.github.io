@@ -168,6 +168,7 @@ dt {
   padding: 0px;
   text-decoration: none;
   text-align: center;
+  text-rendering: auto;
   color: #fff;
   font-size: 25px;
   font-weight: normal;
@@ -175,6 +176,7 @@ dt {
   border-radius: 27px;
   -moz-border-radius: 27px;
   -webkit-border-radius: 27px;
+  -webkit-font-smoothing: antialiased;
 }
 /* facebook button class*/
 .facebookBtn {
@@ -182,7 +184,7 @@ dt {
 }
 
   .facebookBtn:before { /* use :before to add the relevant icons */
-      font-family: "FontAwesome";
+      font-family: "Font Awesome 5 Brands";
       content: "\f09a"; /* add facebook icon */
   }
 
@@ -197,7 +199,7 @@ dt {
 }
 
   .twitterBtn:before {
-      font-family: "FontAwesome";
+      font-family: "Font Awesome 5 Brands";
       content: "\f099"; /* add twitter icon */
   }
 
@@ -212,7 +214,7 @@ dt {
 }
 
   .youtubeBtn:before {
-      font-family: "FontAwesome";
+      font-family: "Font Awesome 5 Brands";
       content: "\f167"; /* add youtube icon */
   }
 
@@ -227,7 +229,7 @@ dt {
 }
 
 .spotifyBtn:before {
-  font-family: "FontAwesome";
+  font-family: "Font Awesome 5 Brands";
   content: "\f1bc"; /* add spotify icon */
 }
 
@@ -242,7 +244,7 @@ dt {
 }
 
   .rssBtn:before {
-      font-family: "FontAwesome";
+      font-family: "Font Awesome 5 Brands";
       content: "\f09e"; /* add rss icon */
   }
 
